@@ -41,18 +41,18 @@ const Nav = ({openNav}:Props) => {
         </ul>
         {/* buttons */}
         <div className="flex items-center space-x-4">
-            <button className="px-6 py-2 sm:px-8 sm:py-3 text-[14px] sm:text-[16px] bg-blue-950
+        <button className="px-4 py-2 sm:px-6 sm:py-3 text-[12px] sm:text-[16px] bg-blue-950
              transition-all duration-200 hover:bg-red-600 flex items-center rounded-md space-x-2
              text-white">
-                <span>
-                    <BiCycling className="w-[1.3rem] h-[1.3rem] sm:w-[2rem] sm:h-[1.8rem]"/>
-                </span>
-                <span className="font-bold">Order Now</span>
-            </button>
-            <button className="sm:px-6 sm:py-3 px-4 py-2 hover:bg-green-700 transition-all duration-200 bg-orange-600
+    <span>
+        <BiCycling className="w-[1.2rem] h-[1.3rem] sm:w-[1.5rem] sm:h-[1.5rem]"/>
+    </span>
+    <span className="font-bold">Order Now</span>
+</button>
+<button className="px-4 py-2 sm:px-6 sm:py-3 hover:bg-green-700 transition-all duration-200 bg-orange-600
             flex items-center rounded-md text-white">
-                <BiShoppingBag className="w-[1.3rem] h-[1.3rem] sm:w-[2rem] sm:h-[1.8rem]"/>
-            </button>
+    <BiShoppingBag className="w-[1.2rem] h-[1.2rem] sm:w-[1.5rem] sm:h-[1.5rem]"/>
+</button>
             <HiBars3BottomRight onClick={openNav} className="lg:hidden w-[2rem] h-[2rem] text-black"/>
         </div>
       </div>

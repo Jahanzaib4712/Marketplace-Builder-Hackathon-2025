@@ -61,16 +61,16 @@ const Footer = () => {
                 </p>
                 {/* social icons */}
                 <div className='flex mt-[2rem] items-center space-x-6'> 
-  <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-    <FaFacebook className='w-[1.5rem] h-[1.5rem] text-blue-400'/>
-  </a>
-  <a href="https://www.instagram.com/__shahzaib_47__/" target="_blank" rel="noopener noreferrer">
-    <FaInstagram className='w-[1.5rem] h-[1.5rem] text-red-400'/>
-  </a>
-  <a href="https://github.com/Jahanzaib4712" target="_blank" rel="noopener noreferrer">
-    <FaGithub className='w-[1.5rem] h-[1.5rem] text-blue-300'/>
-  </a>
-</div>
+                     <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                       <FaFacebook className='w-[1.5rem] h-[1.5rem] text-blue-400'/>
+                     </a>
+                      <a href="https://www.instagram.com/__shahzaib_47__/" target="_blank" rel="noopener noreferrer">
+                        <FaInstagram className='w-[1.5rem] h-[1.5rem] text-red-400'/>
+                      </a>
+                     <a href="https://github.com/Jahanzaib4712" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className='w-[1.5rem] h-[1.5rem] text-blue-300'/>
+                     </a>
+                </div>
         </div>
       </div>
       {/* copyright text */}

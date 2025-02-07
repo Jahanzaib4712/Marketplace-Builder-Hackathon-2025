@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Barlow_Condensed } from "next/font/google";
 import "./globals.css";
-import ResponsiveNav from "./components/Navigation/ResponsiveNav";
-import Footer from "./components/Footer/Footer";
+import ResponsiveNav from "../components/Navigation/ResponsiveNav";
+import Footer from "../components/Footer/Footer";
 
 const barlow_Condensed = Barlow_Condensed({
   weight: ['300', '400', '500', '600', '700', '800'],
@@ -10,7 +10,7 @@ const barlow_Condensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Burger | A healthy Food",
+  title: "HeliRoyale | Take OFF",
   description: "The meal we are providing is very healthy!",
 };
 
